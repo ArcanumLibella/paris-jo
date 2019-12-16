@@ -1,0 +1,31 @@
+// GLOBAL
+@import 'global/_reset.scss';
+@import 'global/_utilities.scss';
+@import 'global/_variables.scss';
+@import 'global/_fonts.scss';
+@import 'global/_typography.scss';
+
+// COMPONENTS
+@import 'components/_lodging.scss';
+@import 'components/_sports.scss';
+
+// TEMPLATES
+@import 'templates/_dashboard.scss';
+
+// PAGES
+@import 'pages/_guide.scss';
+@import 'pages/_homepage.scss';
+
+body {
+  font-family: $font;
+  color: $papyrus;
+  overflow-x: hidden;
+  background-color: $dark;
+}
+
+// .content-wrapper {
+//   margin: 0 auto;
+//   padding: 0 20px;
+//   width: 100vw;
+//   max-width: 1024px;
+// }

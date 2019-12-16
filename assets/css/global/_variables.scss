@@ -1,0 +1,54 @@
+/**
+* COLORS
+*/
+
+//PRIMARY :
+$dark: #222222;
+
+//SECONDARY :
+$papyrus: #FFF9F2;
+
+//GRADIENTS :
+
+
+/**
+* FONTS
+*/
+$font: "Montserrat", "Segoe UI", Tahoma, Verdana, sans-serif;
+
+
+/**
+* BREAKPOINTS
+*/
+$tablet-up: 768px;
+$tablet-down: 767px;
+
+$desktop-up: 1200px;
+$desktop-down: 1199px;
+
+@mixin tablet-up {
+  @media (min-width: $tablet-up) {
+    @content;
+  }
+}
+@mixin tablet-down {
+  @media (max-width: $tablet-down) {
+    @content;
+  }
+}
+
+@mixin desktop-up {
+  @media (min-width: $desktop-up) {
+    @content;
+  }
+}
+@mixin desktop-down {
+  @media (max-width: $desktop-down) {
+    @content;
+  }
+}
+
+/**
+* GLOBAL
+*/
+$headerHeight: 88px;

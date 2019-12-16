@@ -1,0 +1,41 @@
+.dashboard {
+  position: relative;
+  right: 0;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+
+  background-color: indianred;
+
+  @include desktop-up {
+    right: -70vw;
+    width: 100%;
+    max-width: 30vw;
+    height: 100vh;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+
+  &__visit,
+  &__mark,
+  &__well-being {
+    height: calc((100vh / 3) - (50px / 3));
+  }
+
+  &__visit {
+    background-color: darksalmon;
+  }
+
+  &__mark {
+    background-color: coral;
+  }
+
+  &__well-being {
+    background-color: darksalmon;
+  }
+}
