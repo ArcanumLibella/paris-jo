@@ -7,9 +7,11 @@
 
 // COMPONENTS
 @import 'components/_lodging.scss';
-@import 'components/_sports.scss';
+@import 'components/_sport.scss';
 
 // TEMPLATES
+@import 'templates/_filter.scss';
+@import 'templates/_map.scss';
 @import 'templates/_dashboard.scss';
 
 // PAGES
@@ -21,6 +23,11 @@ body {
   color: $papyrus;
   overflow-x: hidden;
   background-color: $dark;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
 }
 
 // .content-wrapper {
