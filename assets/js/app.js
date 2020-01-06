@@ -9,7 +9,7 @@ import Dashboard from './Components/Dashboard.js'
 function App() {
   return (
     <div className="App">
-      <main className='main'>
+      <main className='homepage'>
         <Menu />
         <Dashboard />
       </main>

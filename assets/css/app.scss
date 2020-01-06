@@ -6,11 +6,12 @@
 @import 'global/_typography.scss';
 
 // COMPONENTS
-@import 'components/_lodging.scss';
+// @import 'components/_hostel.scss';
+// @import 'components/_menu.scss';
 @import 'components/_sport.scss';
 
 // TEMPLATES
-@import 'templates/_filter.scss';
+@import 'templates/_menu.scss';
 @import 'templates/_map.scss';
 @import 'templates/_dashboard.scss';
 
@@ -20,14 +21,9 @@
 
 body {
   font-family: $font;
-  color: $papyrus;
+  color: $purple;
   overflow-x: hidden;
-  background-color: $dark;
-}
-
-.main {
-  display: flex;
-  justify-content: space-between;
+  background-color: $ultraLightPurple;
 }
 
 // .content-wrapper {

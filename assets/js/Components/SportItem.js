@@ -2,11 +2,11 @@ import React from 'react'
 
 const SportItem = (props) => {
   return (
-    <div className='menu__item sport' >
+    <div className='menu__item menu__item--sport' >
       <div
-        className='sport__icon'
+        className='menu__icon'
         style={{ backgroundColor: props.color }}></div>
-      <h3 className='sport__title'>{props.sportName}</h3>
+      <p className='menu__title menu-subtitle'>{props.sportName}</p>
     </div >
   )
 }

@@ -2,7 +2,9 @@
 
 ### Install project :
 `git clone project`
+
 `composer install`
+
 `yarn install`
 
 ### Lauch server :

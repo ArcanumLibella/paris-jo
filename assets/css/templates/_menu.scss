@@ -1,0 +1,55 @@
+.menu {
+  height: 100vh;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $white;
+  box-shadow: 0px 2px 20px rgba(107, 117, 202, 0.2);
+  
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+
+    &--sport {
+      height: 42px;
+      margin: 0;
+
+      &.is-clicked {
+        background-color: $ultraLightPurple;
+        border-left: 5px solid $purple;
+      }
+
+      .menu {
+        &__icon {
+          width: 32px;
+          height: 32px;
+          margin-right: 10px;
+          border-radius: 50%;
+        }
+        &__title {
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    background-color: $purple;
+  }
+
+  &__title {
+    color: $lightPurple;
+    text-transform: uppercase;
+
+    .menu__item.is-clicked & {
+      color: $purple;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.h1 {
+}
+
+.h2 {
+}
+
+.h3 {
+}
+
+.menu-title {
+  font-weight: bold;
+  font-size: rem(12px);
+  color: $lightPurple;
+  text-transform: uppercase;
+
+  &.is-clicked {
+    color: $purple;
+  }
+}
+
+.menu-subtitle {
+  font-weight: bold;
+  font-size: rem(9px);
+  color: $lightPurple;
+  text-transform: uppercase;
+
+  &.is-clicked {
+    color: $purple;
+  }
+}
+
+.dashboard-title {
+  font-weight: bold;
+  font-size: rem(20px);
+  color: $dark;
+}
+
+.card-title {
+}
+
+.button-text {
+}
