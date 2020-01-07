@@ -56,6 +56,16 @@ Encore
     // enables Sass/SCSS support
     .enableSassLoader()
 
+    // to copy assets into build directory
+    .copyFiles({
+        from: './public/assets/icons',
+        to: 'icons/[path][name].[hash:8].[ext]'
+    })
+    .copyFiles({
+        from: './public/assets/images',
+        to: 'images/[path][name].[hash:8].[ext]'
+    })
+
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()
 

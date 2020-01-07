@@ -13,4 +13,4 @@ or
 `php -S 127.0.0.1:8000 -t public`
 
 ### Start dev :
-`yarn encore dev --watch` 
+`yarn encore dev --watch`

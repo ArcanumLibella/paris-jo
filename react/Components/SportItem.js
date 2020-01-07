@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SportItem = (props) => {
+const SportItem = (props, sportColor) => {
   return (
     <div className='menu__item menu__item--sport' >
       <div

@@ -19,13 +19,13 @@ const Menu = () => {
 
       <MenuItem text='sports'/>
       {/* <div value={isClicked} onClick={handleSportDisplay} className='sports'> */}
-        <SportItem sportName='tir' color='$shoot'/>
-        <SportItem sportName='équipe' color='purple'/>
-        <SportItem sportName='eau' color='pink'/>
-        <SportItem sportName='athlétisme' color='yellow'/>
-        <SportItem sportName='gymnastique' color='orange'/>
-        <SportItem sportName='combat' color='brown'/>
-        <SportItem sportName='raquette' color='red'/>
+        <SportItem sportName='shoot' color='#D29B85' />
+        <SportItem sportName='team' color='#64E0B9'/>
+        <SportItem sportName='water' color='#95E1EC'/>
+        <SportItem sportName='athletics' color='#F4C61E'/>
+        <SportItem sportName='gym' color='#F3A2A2'/>
+        <SportItem sportName='fight' color='#2C3950'/>
+        <SportItem sportName='racket' color='#E972DD'/>
       {/* </div> */}
 
       <MenuItem text='infos' />
