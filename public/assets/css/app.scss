@@ -6,14 +6,14 @@
 @import 'global/_typography.scss';
 
 // COMPONENTS
-// @import 'components/_hostel.scss';
-// @import 'components/_menu.scss';
+@import 'components/_cards.scss';
+@import 'components/_card.scss';
 @import 'components/_sport.scss';
 
 // TEMPLATES
-@import 'templates/_menu.scss';
-@import 'templates/_map.scss';
-@import 'templates/_dashboard.scss';
+@import 'layouts/_menu.scss';
+@import 'layouts/_map.scss';
+@import 'layouts/_dashboard.scss';
 
 // PAGES
 @import 'pages/_guide.scss';

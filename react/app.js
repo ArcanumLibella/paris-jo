@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
-import '../css/app.scss'
+import '../public/assets/css/app.scss'
 
 // COMPONENTS
 import Menu from './Components/Menu.js'

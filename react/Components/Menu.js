@@ -19,7 +19,7 @@ const Menu = () => {
 
       <MenuItem text='sports'/>
       {/* <div value={isClicked} onClick={handleSportDisplay} className='sports'> */}
-        <SportItem sportName='tir' color='blue'/>
+        <SportItem sportName='tir' color='$shoot'/>
         <SportItem sportName='équipe' color='purple'/>
         <SportItem sportName='eau' color='pink'/>
         <SportItem sportName='athlétisme' color='yellow'/>
