@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>PARIS JOOO</title>   
+        <title>PARIS JO</title>   
         <meta charset="UTF-8" />
         <meta name="description" content="">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        
+        {# FAVICON #}
+        <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+        {# <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"> #}
+        
+        {# SVG #}
         <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
         <symbol id="icon-bar" viewBox="0 0 37 32">
@@ -53,6 +61,7 @@
         </symbol>
         </defs>
         </svg>
+        
         {% block css %}{{ encore_entry_link_tags('app') }}{% endblock %}
     </head>
     <body>
@@ -72,7 +81,7 @@ s        {% endblock %}
         {% block js %}
             {{ encore_entry_script_tags('app') }}
             {# {{ source('/public/assets/icons/symbol-defs.svg') }} #}
-            <script defer src="node_modules/svgxuse/svgxuse.js"></script>
+            {# <script defer src="node_modules/svgxuse/svgxuse.js"></script> #}
         {% endblock %}
     </body>
 </html>

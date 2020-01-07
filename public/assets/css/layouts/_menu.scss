@@ -15,11 +15,17 @@
     border-left: 5px solid transparent;
     cursor: pointer;
 
+    &.is-clicked {
+      +.sports {
+        display: block;
+      }
+    }
+
     &--sport {
       height: 42px;
       margin: 0;
 
-      &.is-clicked, &:hover {
+      &.is-selected, &:hover {
         background-color: $ultraLightPurple;
         border-left: 5px solid $purple;
       }
