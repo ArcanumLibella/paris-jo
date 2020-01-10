@@ -26,7 +26,7 @@ const SportItems = (props) => {
           className='menu__icon'
           style={{ backgroundColor: sportItem.color }}>
         </div>
-        <p className='menu__title menu-subtitle'>{sportItem.sportName}</p>
+        <p className='menu__title menu-subtitle'>{ sportItem.sportName }</p>
       </li >
     )
   })

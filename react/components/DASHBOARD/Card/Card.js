@@ -25,7 +25,7 @@ const Card = (props) => {
       </div>
 
       {/* CARD-BACK */}
-      <div className='card__back'>{'BACK ' + props.type}</div>
+      <div className='card__back'>{props.type}</div>
     </div>
   )
 }
