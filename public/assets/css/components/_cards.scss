@@ -4,5 +4,5 @@
   grid-template-rows: repeat(2, 100px) auto repeat(2, 100px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  height: calc(100vh - 50px - 10px); // 100vh - $headerHeight - margin
+  height: calc(100vh - 40px - 10px); // 100vh - $headerHeight - margin grid
 }

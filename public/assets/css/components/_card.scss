@@ -1,11 +1,13 @@
 .card {
   position: relative;
-  background-color: $ultraLightPurple;
-  border-radius: 15px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  padding: 8px 10px;
+  background-color: $ultraLightPurple;
+  border-radius: 15px;
+  
   &--hostel {
     grid-area: 1 / 1 / 2 / 2;
   }
