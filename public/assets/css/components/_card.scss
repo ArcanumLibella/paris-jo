@@ -1,44 +1,82 @@
 .card {
+  position: relative;
   background-color: $ultraLightPurple;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  &:hover {
-    background-color: $purple;
-  }
-
-  &--1 {
+  &--hostel {
     grid-area: 1 / 1 / 2 / 2;
   }
 
-  &--2 {
+  &--food {
     grid-area: 1 / 2 / 2 / 3;
   }
 
-  &--3 {
+  &--activities {
     grid-area: 2 / 1 / 3 / 2;
   }
 
-  &--4 {
+  &--nature {
     grid-area: 2 / 2 / 3 / 3;
   }
 
-  &--5 {
+  &--overview {
     grid-area: 3 / 1 / 4 / 3;
   }
 
-  &--6 {
+  &--affluence {
     grid-area: 4 / 1 / 5 / 2;
   }
 
-  &--7 {
+  &--noise {
     grid-area: 4 / 2 / 5 / 3;
   }
 
-  &--8 {
+  &--pollution {
     grid-area: 5 / 1 / 6 / 2;
   }
 
-  &--9 {
+  &--cleanliness {
     grid-area: 5 / 2 / 6 / 3;
+  }
+
+  &__front,
+  &__back {
+    display: block;
+    transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+    transition-duration: .5s;
+    transition-property: transform, opacity;
+  }
+
+  &__front {
+    background-color: $ultraLightPurple;
+    transform: rotateY(0deg);
+  }
+
+  &:hover &__front {
+    transform: rotateX(180deg);
+  }
+
+  &__back {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: $purple;
+    transform: rotateX(-180deg);
+  }
+
+  &:hover &__back {
+    opacity: 1;
+    color: $white;
+    border-radius: 15px;
+    transform: rotateX(0deg);
   }
 }

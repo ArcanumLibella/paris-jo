@@ -16,10 +16,10 @@ const SportItems = (props) => {
   }
 
   // Map sur chaque sport de sportsList
-  const sportItems = sportsList.sports.map((sportItem, index) => {
+  const sportItems = sportsList.sports.map((sportItem) => {
     return (
       <li 
-        key={index}
+        key={sportItem.id}
         className={ isSelected ? "menu__item menu__item--sport" : "menu__item menu__item--sport is-selected" } 
         onClick={() => handleSportDisplay()}>
         <div
