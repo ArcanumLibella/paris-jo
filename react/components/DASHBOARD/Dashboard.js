@@ -1,9 +1,10 @@
 import React from 'react'
 
 // COMPONENTS
-import Card from './Card'
+import Card from './Card/Card'
+import Overview from './Card/Overview'
 
-const Dashboard = () => {
+const Dashboard = (props) => {
   return (
     <section className='dashboard'>
       <h2 className='dashboard__title dashboard-title'>Numéro de l'arrondissement</h2>
@@ -14,7 +15,7 @@ const Dashboard = () => {
         <Card type='activities' text='point of interest'/>
         <Card type='nature' text='ha of green space'/>
 
-        <Card type='overview'/>
+        <Overview type='overview'/>
         
         <Card type='affluence'/>
         <Card type='noise'/>
