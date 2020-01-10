@@ -61,10 +61,6 @@ Encore
         from: './public/assets/icons',
         to: 'icons/[path][name].[ext]'
     })
-    .copyFiles({
-        from: './public/assets/images',
-        to: 'images/[path][name].[hash:8].[ext]'
-    })
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()
