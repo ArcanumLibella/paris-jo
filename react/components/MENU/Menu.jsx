@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 // COMPONENTS
-import MenuItem from './MenuItem.js'
-import SportItems from './SportItems.js'
+import MenuItem from './MenuItem.jsx'
+import SportItems from './SportItems.jsx'
 
 
 
@@ -12,8 +12,8 @@ const Menu = (props) => {
     <aside className='menu'>
       <MenuItem label='home' />
 
-      <MenuItem label='sports'/>
-        <SportItems />
+      <MenuItem label='sports' />
+      <SportItems />
       <MenuItem label='infos' />
     </aside>
   )
