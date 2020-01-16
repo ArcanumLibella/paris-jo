@@ -6,22 +6,26 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoid2FzcDg0NTYiLCJhIjoiY2s1Z29pODllMDliZTNva2V4d
 
 const Map = (props) => {
 
-    const [longitude, setLongitude] = useState('5');
-    const [latitude, setLatitude] = useState('34');
-    const [zoom, setZoom] = useState('2');
+    const styles = {
+        width: "100%"
+    };
+
+    const [longitude, setLongitude] = useState('2.34');
+    const [latitude, setLatitude] = useState('48.859');
+    const [zoom, setZoom] = useState('11.5');
     const mapContainer = useRef(null);
 
     useEffect(() => {
         const map = new mapboxgl.Map({
             container: mapContainer.current,
-            style: 'mapbox://styles/wasp8456/ck5gonrzl0adu1iqg4mywmqap',
+            style: 'mapbox://styles/wasp8456/ck5h4i08k038x1inzfa1ak3pz',
             center: [longitude, latitude],
             zoom: zoom
         });
 
     });
 
-    return <div ref={el => (mapContainer.current = el)}/>;
+    return <div ref={el => (mapContainer.current = el)} style={styles} />;
 };
 
 export default Map;
