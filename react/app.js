@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom'
 import '../public/assets/css/app.scss'
 
 // COMPONENTS
-import Menu from './components/MENU/Menu.js'
-import Dashboard from './components/DASHBOARD/Dashboard.js'
-import Map from './components/MAP/Map.js'
+import Menu from './components/MENU/Menu.jsx'
+import Dashboard from './components/DASHBOARD/Dashboard.jsx'
+import Map from './components/MAP/Map.jsx'
 
 function App() {
   return (
