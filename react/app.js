@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom'
 import '../public/assets/css/app.scss'
 
 // COMPONENTS
-import Menu from './components/MENU/Menu.jsx'
-import Dashboard from './components/DASHBOARD/Dashboard.jsx'
-import Map from './components/MAP/Map.jsx'
+import { Menu, Dashboard, Map } from './components'
 
 function App() {
   return (

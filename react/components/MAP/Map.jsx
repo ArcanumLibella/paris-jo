@@ -15,8 +15,8 @@ const Map = (props) => {
         const map = new mapboxgl.Map({
             container: mapContainer.current,
             style: 'mapbox://styles/wasp8456/ck5gonrzl0adu1iqg4mywmqap',
-            center: [longitude, latitude],
-            zoom: zoom
+            center: [2.3488, 48.8534],
+            zoom: 12
         });
 
     });
