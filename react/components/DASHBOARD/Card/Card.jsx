@@ -5,18 +5,20 @@ import CardCount from './CardCount.jsx'
 import CardGraphic from './CardGraphic.jsx'
 
 const Card = (props) => {
+  const { type, text } = props
+
   return (
-    <div className={'card card--' + props.type}>
+    <div className={'card card--' + type}>
       {/* CARD-FRONT */}
       <div className='card__front card-front'>
-        <h3 className='card-front__title card-title'>{props.type}</h3>
+        <h3 className='card-front__title card-title'>{type}</h3>
 
         <div className='card-front__wrapper'>
-          <CardCount text={props.text} />
+          <CardCount text={text} />
 
           <div className='card-front__icon'>
-            <svg className={'icon icon-' + props.type}>
-              <use xlinkHref={'#icon-' + props.type}></use>
+            <svg className={'icon icon-' + type}>
+              <use xlinkHref={'#icon-' + type}></use>
             </svg>
           </div>
 
@@ -25,7 +27,7 @@ const Card = (props) => {
       </div>
 
       {/* CARD-BACK */}
-      <div className='card__back'>{props.type}</div>
+      <div className='card__back'>{type}</div>
     </div>
   )
 }

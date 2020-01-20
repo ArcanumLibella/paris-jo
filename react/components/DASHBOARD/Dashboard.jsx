@@ -22,6 +22,11 @@ const Dashboard = (props) => {
         <Card type='pollution' />
         <Card type='cleanliness' />
       </div>
+      <div className='tuto'>
+        <svg className='icon icon-tuto'>
+          <use xlinkHref='#icon-tuto'></use>
+        </svg>
+      </div>
     </section>
   )
 }

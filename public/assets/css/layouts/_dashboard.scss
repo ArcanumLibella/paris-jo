@@ -46,4 +46,11 @@
   &__well-being {
     background-color: $ultraLightPurple;
   }
+
+  .tuto {
+    position: relative;
+    left: -50px;
+    bottom: 36px;
+    border-radius: 50%;
+  }
 }
