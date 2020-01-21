@@ -8,40 +8,24 @@
   background-color: $ultraLightPurple;
   border-radius: 15px;
   
-  &--hostel {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-
-  &--food {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-
-  &--activities {
-    grid-area: 2 / 1 / 3 / 2;
+  &--podium {
+    grid-area: 1 / 1 / 2 / 3;
   }
 
   &--nature {
+    grid-area: 2 / 1 / 4 / 2;
+  }
+
+  &--hostel {
     grid-area: 2 / 2 / 3 / 3;
   }
 
-  &--overview {
-    grid-area: 3 / 1 / 4 / 3;
+  &--culture {
+    grid-area: 3 / 2 / 4 / 3;
   }
 
-  &--affluence {
-    grid-area: 4 / 1 / 5 / 2;
-  }
-
-  &--noise {
-    grid-area: 4 / 2 / 5 / 3;
-  }
-
-  &--pollution {
-    grid-area: 5 / 1 / 6 / 2;
-  }
-
-  &--cleanliness {
-    grid-area: 5 / 2 / 6 / 3;
+  &--restaurant {
+    grid-area: 4 / 1 / 5 / 3;
   }
 
   &__front,

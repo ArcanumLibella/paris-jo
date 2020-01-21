@@ -2,7 +2,8 @@ import React from 'react'
 
 // COMPONENTS
 import Card from './Card/Card.jsx'
-import Overview from './Card/Overview.jsx'
+// import Overview from './Card/Overview.jsx'
+import Podium from './Card/Podium.jsx'
 
 const Dashboard = (props) => {
   return (
@@ -10,17 +11,19 @@ const Dashboard = (props) => {
       <h2 className='dashboard__title dashboard-title'>Numéro de l'arrondissement</h2>
 
       <div className='dashboard__wrapper cards'>
-        <Card type='hostel' text='hostel' />
-        <Card type='food' text='restaurants' />
-        <Card type='activities' text='point of interest' />
-        <Card type='nature' text='ha of green space' />
+        <Podium type='podium' />
 
-        <Overview type='overview' />
+        <Card type='nature' text='ha of green space' />
+        <Card type='hostel' text='hostel' />
+        <Card type='culture' text='point of interest' />
+        <Card type='restaurant' text='restaurants' />
+
+        {/* <Overview type='overview' />
 
         <Card type='affluence' />
         <Card type='noise' />
         <Card type='pollution' />
-        <Card type='cleanliness' />
+        <Card type='cleanliness' /> */}
       </div>
       <div className='tuto'>
         <svg className='icon icon-tuto'>

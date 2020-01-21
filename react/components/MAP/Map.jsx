@@ -21,7 +21,7 @@ const Map = (props) => {
 
     });
 
-    return <div ref={el => (mapContainer.current = el)}/>;
+    return <div className='map' ref={el => (mapContainer.current = el)}/>;
 };
 
 export default Map;
