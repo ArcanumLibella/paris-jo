@@ -5,15 +5,16 @@ import React, { useState } from 'react'
 const MenuItem = (props) => {
   const [isClicked, setIsClicked] = useState("false")
 
-  const handleSportDisplay = event => {
-    setIsClicked(!isClicked)
-    console.log(isClicked);
-  }
+  // const handleSportDisplay = event => {
+  //   setIsClicked(!isClicked)
+  //   console.log(isClicked);
+  // }
 
   return (
-    <div
-      className={isClicked ? "menu__item" : "menu__item is-clicked"}
-      onClick={(event) => handleSportDisplay(event)}>
+    // <div
+    //   className={isClicked ? "menu__item" : "menu__item is-clicked"}
+    //   onClick={(event) => handleSportDisplay(event)}>
+    <div className='menu__item'>
       <div className='menu__icon'>
         <svg className={'icon icon-' + props.label}>
           <use xlinkHref={'#icon-' + props.label}></use>

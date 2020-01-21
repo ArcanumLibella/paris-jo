@@ -20,6 +20,15 @@
   }
 }
 
+.dropdown-item {
+  font-weight: normal;
+  font-size: rem(12px);
+
+  &:hover {
+    font-weight: 600;
+  }
+}
+
 .dashboard-title {
   font-weight: bold;
   font-size: rem(18px);

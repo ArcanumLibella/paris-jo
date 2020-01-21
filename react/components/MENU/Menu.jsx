@@ -12,9 +12,9 @@ const Menu = (props) => {
     <aside className='menu'>
       <MenuItem label='home' />
 
-      <MenuItem label='sports' />
+      {/* <MenuItem label='sports' /> */}
       <SportItems />
-      <MenuItem label='infos' />
+      {/* <MenuItem label='infos' /> */}
     </aside>
   )
 }

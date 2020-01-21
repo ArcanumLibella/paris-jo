@@ -1,0 +1,17 @@
+.dropdown {
+  width: 150px;
+  height: auto;
+  padding: 8px 12px;
+  background-color: $white;
+  border-radius: 5px;
+
+  &__item {
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+
+
+  }
+}
