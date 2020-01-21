@@ -8,7 +8,6 @@ const MenuItem = (props) => {
   const handleSportDisplay = event => {
     setIsClicked(!isClicked)
     console.log(isClicked);
-
   }
 
   return (

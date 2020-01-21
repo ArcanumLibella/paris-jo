@@ -30,7 +30,7 @@ const SportItems = (props) => {
   //   setSports(selectedSports);
   // }
 
-  // Déclaration qui map sur chaque sport de sportsList
+  // Déclaration d'une fontion qui map sur chaque sport de sportsList
   const displaySportItems = () => {
     return sportsList.sports.map
       (
