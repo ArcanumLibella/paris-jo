@@ -8,10 +8,23 @@ import { Tuto, Cross } from '../../../public/assets/icons/all-icons'
 
 
 const Dashboard = (props) => {
+  const [isClosed, setIsClosed] = React.useState('true')
+
+  // function to toggle dashboard display
+  const handleDashboardDisplay = () => {
+    setIsClosed(!isClosed)
+  }
+
   return (
-    <section className='dashboard'>
-      <h2 className='dashboard__title dashboard-title'>Numéro de l'arrondissement</h2>
-      <div className='cross'>
+    <section 
+      className={
+        isClosed 
+        ? 'dashboard' 
+        : 'dashboard is-closed'}>
+      <h2 className='dashboard__title dashboard-title'>Xème arrondissement</h2>
+      <div 
+        className='cross'
+        onClick={() => handleDashboardDisplay()}>
         <Cross/>
       </div>
       <div className='dashboard__wrapper cards'>
