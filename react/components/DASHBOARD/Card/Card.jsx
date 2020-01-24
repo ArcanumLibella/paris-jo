@@ -7,9 +7,25 @@ import BackCulture from './Back/BackCulture.jsx'
 import BackHostel from './Back/BackHostel.jsx'
 import BackRestaurant from './Back/BackRestaurant.jsx'
 import BackNature from './Back/BackNature.jsx'
+import { Food, Hostel, Monument, Tree } from '../../../../public/assets/icons/all-icons'
+
+
 
 const Card = (props) => {
   const { type, text } = props
+
+  // Function to handle card icon
+  const handleCardIcon = (type) => {
+    if (type === 'culture') {
+      return <Monument />
+    } else if (type === 'restaurant') {
+      return <Food />
+    } else if (type === 'hostel') {
+      return <Hostel />
+    } else if (type === 'nature') {
+      return <Tree />
+    }
+  }
 
   // Function to check card type
   const handleCardBack = (type) => {
@@ -34,9 +50,7 @@ const Card = (props) => {
           <CardCount text={text} />
 
           <div className='card-front__icon'>
-            <svg className={'icon icon-' + type}>
-              <use xlinkHref={'#icon-' + type}></use>
-            </svg>
+            { handleCardIcon(type) }
           </div>
 
           <CardGraphic />

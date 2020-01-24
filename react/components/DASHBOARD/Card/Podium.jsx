@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 const Podium = (props) => {
   return(
     <div className={ 'card card--' + props.type + ' podium' }>

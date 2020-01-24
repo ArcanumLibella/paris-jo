@@ -9,11 +9,10 @@
 // COMPONENTS
 @import 'components/_cards.scss';
 @import 'components/_card-front.scss';
-@import 'components/card-back.scss';
+@import 'components/_card-back.scss';
 @import 'components/_card.scss';
 @import 'components/_podium.scss';
 @import 'components/_sports.scss';
-@import 'components/_tuto.scss';
 @import 'components/_dropdown.scss';
 
 // TEMPLATES
@@ -26,9 +25,9 @@
 @import 'pages/_homepage.scss';
 
 body {
-  font-family: $font;
-  color: $purple;
   overflow-x: hidden;
+  color: $purple;
+  font-family: $font;
   background-color: $ultraLightPurple;
 }
 

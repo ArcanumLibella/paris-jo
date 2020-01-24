@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 
 // COMPONENTS
 import MenuItem from './MenuItem.jsx'
-import SportItems from './SportItems.jsx'
-
+import SportCategoryItems from './SportCategoryItems.jsx'
 
 
 
@@ -13,7 +12,7 @@ const Menu = (props) => {
       <MenuItem label='home' />
 
       {/* <MenuItem label='sports' /> */}
-      <SportItems />
+      <SportCategoryItems />
       {/* <MenuItem label='infos' /> */}
     </aside>
   )

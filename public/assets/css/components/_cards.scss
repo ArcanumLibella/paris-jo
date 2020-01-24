@@ -7,9 +7,9 @@
   // height: calc(100vh - 40px - 10px); // 100vh - $headerHeight - margin grid
 
   display: grid;
-  grid-template-columns: repeat(2, 260px);
-  grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 10px;
   grid-row-gap: 10px;
-  height: calc(100vh - 40px - 10px); // 100vh - $headerHeight - margin grid
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 260px);
+  height: calc(100vh - 40px - 20px); // 100vh - $headerHeight - margin grid
+  grid-column-gap: 10px;
 }
