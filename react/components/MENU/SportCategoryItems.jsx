@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+// COMPONENTS
 import SportCategoryItem from "./SportCategoryItem.jsx";
 
 // DATA

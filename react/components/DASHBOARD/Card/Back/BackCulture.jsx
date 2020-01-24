@@ -1,7 +1,22 @@
 import React from 'react'
 
+// COMPONENTS
+import { Museum, Concert, Theater } from '../../../../../public/assets/icons/all-icons'
+
+
+
 const BackCulture = ( props ) => {
   const { type, text, cultureActivity } = props
+
+  // const handleIconCulture = (cultureActivity) => {
+  //   if (cultureActivity === 'museum') {
+  //     return <Museum/>
+  //   } else if (cultureActivity === 'concert') {
+  //     return <Concert/>
+  //   } else if (cultureActivity === 'theater') {
+  //     return <Theater/>
+  //   }
+  // }
 
   return (
     <div className='card-back card-back--culture'>
@@ -11,25 +26,22 @@ const BackCulture = ( props ) => {
 
         <div className='card-back__icon'>
           <div className='card-back__hexagon'>
-            <svg className='icon icon-museum'>
-              <use xlinkHref='#icon-museum'></use>
-            </svg>
+            {/* {handleIconCulture()} */}
+            <Museum/>
           </div>
           <p className='card-back__data card-data'>3 museum</p>
         </div>
         <div className='card-back__icon'>
           <div className='card-back__hexagon'>
-            <svg className='icon icon-theater'>
-              <use xlinkHref='#icon-theater'></use>
-            </svg>
+            {/* {handleIconCulture()} */}
+            <Theater/>
           </div>
           <p className='card-back__data card-data'>2 theaters</p>
         </div>
         <div className='card-back__icon'>
           <div className='card-back__hexagon'>
-            <svg className='icon icon-concert'>
-              <use xlinkHref='#icon-concert'></use>
-            </svg>
+            {/* {handleIconCulture()} */}
+            <Concert/>
           </div>
           <p className='card-back__data card-data'>8 concerts</p>
         </div>

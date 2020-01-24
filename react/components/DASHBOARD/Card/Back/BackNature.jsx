@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 const BackNature = () => {
   return (
     <div className='card-back card-back--nature'>

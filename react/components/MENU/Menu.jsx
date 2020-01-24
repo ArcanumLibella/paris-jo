@@ -6,7 +6,6 @@ import SportCategoryItems from './SportCategoryItems.jsx'
 
 
 
-
 const Menu = (props) => {
   return (
     <aside className='menu'>
