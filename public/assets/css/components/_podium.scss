@@ -1,31 +1,31 @@
 .podium {
-  height: 100%;
   width: 100%;
+  height: 100%;
 
   &__wrapper {
     display: flex;
     justify-content: space-between;
-    height: calc(100% - 15px);
     width: 100%;
+    height: calc(100% - 15px);
   }
 
   &__graphic {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100%;
+    justify-content: center;
     width: 70%;
-    background-color: $lightPurple;
+    height: 100%;
     color: $white;
+    background-color: $lightPurple;
   }
 
   &__mark {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100%;
+    justify-content: center;
     width: 30%;
-    background-color: $purple;
+    height: 100%;
     color: $white;
+    background-color: $purple;
   }
 }

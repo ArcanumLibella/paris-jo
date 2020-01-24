@@ -26,9 +26,9 @@
 @import 'pages/_homepage.scss';
 
 body {
-  font-family: $font;
-  color: $purple;
   overflow-x: hidden;
+  color: $purple;
+  font-family: $font;
   background-color: $ultraLightPurple;
 }
 

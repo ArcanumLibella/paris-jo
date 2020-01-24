@@ -1,7 +1,7 @@
 .menu-title {
-  font-weight: bold;
-  font-size: rem(12px);
   color: $lightPurple;
+  font-size: rem(12px);
+  font-weight: bold;
   text-transform: uppercase;
 
   &.is-clicked {
@@ -10,9 +10,9 @@
 }
 
 .menu-subtitle {
-  font-weight: bold;
-  font-size: rem(9px);
   color: $lightPurple;
+  font-size: rem(9px);
+  font-weight: bold;
   text-transform: uppercase;
 
   &.is-clicked {
@@ -20,25 +20,21 @@
   }
 }
 
-.dropdown-item {
-  font-weight: normal;
+.dropdown-label {
   font-size: rem(12px);
-
-  &:hover {
-    font-weight: 600;
-  }
+  font-weight: normal;
 }
 
 .dashboard-title {
-  font-weight: bold;
-  font-size: rem(18px);
   color: $black;
+  font-size: rem(18px);
+  font-weight: bold;
 }
 
 .card-title {
-  font-weight: bold;
-  font-size: rem(14px);
   color: $black;
+  font-size: rem(14px);
+  font-weight: bold;
   text-transform: capitalize;
 }
 
