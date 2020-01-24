@@ -16,12 +16,6 @@
     border-left: 5px solid transparent;
     cursor: pointer;
 
-    // &.is-clicked {
-    //   +.sports {
-    //     display: block;
-    //   }
-    // }
-
     &--sport {
       margin: 0;
       height: 42px;
@@ -72,13 +66,8 @@
     }
   }
 
-
   &__title {
     color: $purple;
     text-transform: uppercase;
-
-    .menu__item.is-clicked &, &:hover {
-      color: $purple;
-    }
   }
 }
