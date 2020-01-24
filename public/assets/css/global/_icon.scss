@@ -3,12 +3,25 @@
   width: 32px;
   height: 32px;
   fill: $lightPurple;
+
+  &-museum {
+    fill: $blue;
+  }
+
+  &-theater {
+    stroke: $orange;
+  }
+
+  &-concert {
+    fill: $pink;
+  }
 }
 
 .tuto {
   width: 32px;
   height: 32px;
   background-color: $lightPurple;
+  border-radius: 50%;
   cursor: pointer;
 
   &:hover {

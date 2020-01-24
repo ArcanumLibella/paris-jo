@@ -4,7 +4,7 @@ import React from 'react'
 
 const Podium = (props) => {
   return(
-    <div className={ 'card card--' + props.type + ' podium' }>
+    <div className={ 'card card--' + props.type }>
       {/* CARD-FRONT */}
       <div className='card__front podium'>
         <h3 className='podium__title card-title'>{props.type}</h3>

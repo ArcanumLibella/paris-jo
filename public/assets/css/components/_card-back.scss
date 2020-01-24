@@ -54,18 +54,6 @@
       width: 25px;
       height: 25px;
     }
-
-    .icon-museum {
-      fill: $blue;
-    }
-
-    .icon-theater {
-      stroke: $orange;
-    }
-
-    .icon-concert {
-      fill: $pink;
-    }
   }
 
   &__data {
@@ -83,13 +71,6 @@
     border-radius: 15px;
   }
 
-  &--hostel {
-  }
-
-  &--restaurant {
-
-  }
-
   &--culture {
     .icon-shape_culture {
       width: 43px;
@@ -100,9 +81,5 @@
         height: 20px;
       }
     }
-  }
-
-  &--nature {
-    
   }
 }
