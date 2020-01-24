@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <main className='homepage'>
         <Menu />
-        <Map />
+        {/* <Map /> */}
         <Dashboard />
       </main>
     </div>

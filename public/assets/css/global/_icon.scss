@@ -4,3 +4,35 @@
   height: 32px;
   fill: $lightPurple;
 }
+
+.tuto {
+  width: 32px;
+  height: 32px;
+  background-color: $lightPurple;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $purple;
+  }
+
+  .icon {
+    width: 32px;
+    height: 24px;
+    fill: $white;
+  }
+}
+
+.cross {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  .icon {
+    width: 15px;
+    height: 15px;
+
+    &:hover {
+      fill: $purple;
+    }
+  }
+}
